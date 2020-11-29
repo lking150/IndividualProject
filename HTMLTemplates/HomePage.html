@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<link rel="stylesheet" href="mystyle.css">
 <title>Dip Powder Nails 101</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=3">
 <style>
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-indent: 50px;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  margin:12px;
+  padding: 14px 16px;
   text-decoration: none;
-  display: block;
+  font-size: 17px;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.topnav a:hover {
+  background-color: ##797779;
+  color: black;
+  padding: 14px 16px;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.topnav a.active {
+  background-color: #BA18AE;
+  color: white;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 </style>
 </head>
+
 <body>
-
-<h1>Dip Powder Nails 101</h1>
-<h2>Welcome to your one stop shop for all things dip powder</h2>
-<p> </p>
-<p>You will be able to find all your necessities to complete a manicure here</p>
-
-<p>Move the mouse over the button to open the dropdown menu.</p>
-
-<div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
+    
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
     <a href="DirectionsPage.html">Directions</a>
     <a href="TipsTricksPage.html">Tips & Tricks</a>
     <a href="InspirationGallery.html">Inspiration Gallery</a>
     <a href="HelpfulLinks.html">Helpful Links</a>
-    <a href="DIYPowder.html">DIY Powders</a>
-  </div>
+    <a href="DIYPowder.html">DIY Powder</a>
 </div>
+
+<p class="aligncenter">
+    <img src="/Images/Logo.JPG" alt="centered image" width="1100" height="500" />
+
+<h1>Dip Powder Nails 101</h1>
+
+<h2>Welcome to your one stop shop for all things dip powder</h2>
+
+<p>You will be able to find all your necessities to complete a manicure here</p>
 
 </body>
 </html>
